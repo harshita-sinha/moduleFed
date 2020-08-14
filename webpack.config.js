@@ -38,7 +38,9 @@ module.exports = (_, argv) => ({
       name: "host",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./DogWidget": "./src/DogWidget",
+      },
       shared: require("./package.json").dependencies,
     }),
     new HtmlWebPackPlugin({
