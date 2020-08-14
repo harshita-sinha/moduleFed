@@ -7,7 +7,7 @@ export default () => (
       width: 500,
       height: 280,
       padding: "1em",
-      border: "2em dashed blue",
+      border: "2em dashed green",
     }}
   />
 );
