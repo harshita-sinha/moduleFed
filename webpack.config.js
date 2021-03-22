@@ -39,7 +39,7 @@ module.exports = (_, argv) => ({
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        "./DogWidget": "./src/DogWidget",
+        "./Header": "./src/Header",
       },
       shared: require("./package.json").dependencies,
     }),
