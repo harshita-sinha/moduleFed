@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-import DogWidget from "./DogWidget";
+import Header from "./Header";
 
 const App = () => (
   <div>
-    <DogWidget />
+    <Header />
   </div>
 );
 
